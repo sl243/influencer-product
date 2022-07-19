@@ -182,16 +182,22 @@ footer {
 .socialicon {
     display: flex;
     justify-content: center;
-
-
 }
 
 .socia-button {
-
     width: 32px;
     height: 32px;
-
     padding-top: 10px;
     border-radius: 20px;
+}
 
+/* Responsive for Mobile  */
+
+@media only screen and (max-width: 566px) {
+    .main-details {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column-reverse;
+
+    }
 }
